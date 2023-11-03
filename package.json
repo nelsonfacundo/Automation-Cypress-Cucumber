@@ -1,0 +1,23 @@
+{
+  "name": "automation-cypress-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonfacundo/Automation-Cypress-Cucumber.git"
+  },
+  "author": "Nelson Facundo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonfacundo/Automation-Cypress-Cucumber/issues"
+  },
+  "homepage": "https://github.com/nelsonfacundo/Automation-Cypress-Cucumber#readme",
+  "dependencies": {
+    "cypress": "^13.4.0"
+  }
+}
