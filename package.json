@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
     "cypress:reporter": "cypress run --browser chrome --spec cypress/e2e/*.js",
-    "cypress:reporter-test": "cypress run --browser chrome --spec cypress/e2e/test.cy.js"
+    "cypress:reporter-test": "cypress run --browser chrome --spec cypress/e2e/test.cy.js",
+    "deleteReport" : " node removeReports.js"
   },
   "repository": {
     "type": "git",
