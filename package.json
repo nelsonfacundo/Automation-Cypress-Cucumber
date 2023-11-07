@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:reporter": "cypress run --browser chrome --spec cypress/e2e/*.js",
+    "cypress:reporter-test": "cypress run --browser chrome --spec cypress/e2e/test.cy.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/nelsonfacundo/Automation-Cypress-Cucumber#readme",
   "dependencies": {
-    "cypress": "^13.4.0"
+    "cypress": "^13.4.0",
+    "cypress-mochawesome-reporter": "^3.6.1"
   }
 }
