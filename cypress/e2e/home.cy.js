@@ -24,4 +24,8 @@ describe("template spec", () => {
     cy.get("dt").eq(2).contains("Free and Open Source")
   });
 
+  
+
+
+
 });
